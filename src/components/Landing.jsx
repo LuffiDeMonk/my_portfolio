@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Rocket from "../assets/rocket.png";
+import resume from "/CV-Prabhat.pdf";
 
 const imageVariants = {
   visible: {
@@ -28,9 +29,13 @@ const Landing = () => {
             eius numquam, ut voluptates doloremque velit temporibus dolores cum
             officia ex!
           </p>
-          <button className=" w-fit px-6 py-3 bg-gradient-to-l from-cyan-500 to-blue-500 text-white rounded-md">
+          <a
+            download="resume"
+            href={resume}
+            className=" w-fit px-6 py-3 bg-gradient-to-l from-cyan-500 to-blue-500 text-white rounded-md"
+          >
             Download CV
-          </button>
+          </a>
         </div>
         <div className="flex items-center h-1/2 lg:h-auto">
           <motion.img
