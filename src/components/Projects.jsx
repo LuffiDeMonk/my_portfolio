@@ -1,6 +1,7 @@
 import React from "react";
 import RecipeApp from "../assets/recipe_app.jpg";
 import NewsApp from "../assets/news_app.jpg";
+import MovieApp from "../assets/movie_app.jpg";
 import { Link } from "react-router-dom";
 
 const projects = [
@@ -15,6 +16,12 @@ const projects = [
     projectImage: NewsApp,
     projectUrl: "https://github.com/LuffiDeMonk/news-app/tree/master",
     projectTitle: "News App",
+  },
+  {
+    id: 3,
+    projectImage: MovieApp,
+    projectUrl: "https://playful-selkie-ca7f7e.netlify.app/",
+    projectTitle: "Movie App",
   },
 ];
 
