@@ -26,7 +26,7 @@ const socialIcons = [
     name: "Github",
     icon: <AiOutlineGithub size={30} />,
     href: "https://github.com/LuffiDeMonk",
-    background: "bg-[#171515]",
+    background: "bg-white",
   },
   {
     id: 4,

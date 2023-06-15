@@ -70,13 +70,13 @@ const cardVariants = [
 
 const Experience = () => {
   return (
-    <div className="bg-black text-white pt-24 md:pt-0" name="Experience">
+    <div className="bg-black text-white md:pt-0" name="Experience">
       <div className="max-w-screen-lg mx-auto h-full px-4 lg:px-0">
         <h1 className="text-3xl md:text-5xl inline border-b-4">Experience</h1>
         <p className="py-6 text-lg">
           Here are some of the technologies which I am familiar with
         </p>
-        <div className="pb-8 grid gap-12 grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+        <div className="pb-8 grid gap-12 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {skills.map(({ id, title, image, shadow }) => {
             return (
               <div
