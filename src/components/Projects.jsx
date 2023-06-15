@@ -46,7 +46,7 @@ const Projects = () => {
                 <img
                   src={projectImage}
                   alt=""
-                  className="rounded-b-md object-cover"
+                  className="rounded-b-lg object-cover"
                 />
                 <p className="text-md font-semibold text-white">
                   {projectTitle}
