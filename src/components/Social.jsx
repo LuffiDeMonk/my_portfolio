@@ -48,9 +48,13 @@ const Social = () => {
             className={`${background} flex flex-col items-center justify-center p-2 w-full translate-x-[5.4rem] hover:translate-x-0 duration-300`}
             key={id}
           >
-            <a className="flex items-center text-center w-full" href={href}>
+            <a className={`flex items-center text-center w-full`} href={href}>
               {icon}
-              <span className="text-md ml-4 text-white font-semibold">
+              <span
+                className={`text-md ml-4 ${
+                  name === "Github" ? "text-black" : "text-white"
+                } font-semibold`}
+              >
                 {name}
               </span>
             </a>
