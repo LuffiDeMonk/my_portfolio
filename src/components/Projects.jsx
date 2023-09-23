@@ -2,6 +2,8 @@ import React from "react";
 import RecipeApp from "../assets/recipe_app.jpg";
 import NewsApp from "../assets/news_app.jpg";
 import MovieApp from "../assets/movie_app.jpg";
+import DynamicSearchBar from "../assets/dynamic_searchbar.jpg";
+import OnlineStore from "../assets/online_store.jpg";
 import { Link } from "react-router-dom";
 
 const projects = [
@@ -22,6 +24,18 @@ const projects = [
     projectImage: MovieApp,
     projectUrl: "https://playful-selkie-ca7f7e.netlify.app/",
     projectTitle: "Movie App",
+  },
+  {
+    id: 4,
+    projectImage: DynamicSearchBar,
+    projectUrl: "https://frabjous-cheesecake-e5aa8b.netlify.app/",
+    projectTitle: "Dynamic Searchbar",
+  },
+  {
+    id: 5,
+    projectImage: OnlineStore,
+    projectUrl: "https://papaya-smakager-4b33ad.netlify.app/",
+    projectTitle: "OnlineStore",
   },
 ];
 
