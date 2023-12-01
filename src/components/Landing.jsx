@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Rocket from "../assets/rocket.png";
-import resume from "/My_Resume.pdf";
+import resume from "/Prabhat_CV.pdf";
 
 const imageVariants = {
   visible: {
