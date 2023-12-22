@@ -11,6 +11,7 @@ const App = () => {
   return (
     <div className="font-nunito">
       <Navbar />
+      hello
       <Landing />
       <About />
       <Experience />
